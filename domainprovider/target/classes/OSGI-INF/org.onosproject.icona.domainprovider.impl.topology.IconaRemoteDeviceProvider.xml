@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteDeviceProvider" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="org.onosproject.icona.domainprovider.api.device.IconaSBDeviceService"/>
+            
+    </service>
+        
+    <reference name="configRegistry" interface="org.onosproject.net.config.NetworkConfigRegistry" cardinality="1..1" policy="static" bind="bindConfigRegistry" unbind="unbindConfigRegistry"/>
+        
+    <reference name="configService" interface="org.onosproject.net.config.NetworkConfigService" cardinality="1..1" policy="static" bind="bindConfigService" unbind="unbindConfigService"/>
+        
+    <reference name="coreService" interface="org.onosproject.core.CoreService" cardinality="1..1" policy="static" bind="bindCoreService" unbind="unbindCoreService"/>
+        
+    <reference name="deviceProviderRegistry" interface="org.onosproject.net.device.DeviceProviderRegistry" cardinality="1..1" policy="static" bind="bindDeviceProviderRegistry" unbind="unbindDeviceProviderRegistry"/>
+        
+    <reference name="iconaSBLinkService" interface="org.onosproject.icona.domainprovider.api.link.IconaSBLinkService" cardinality="1..1" policy="static" bind="bindIconaSBLinkService" unbind="unbindIconaSBLinkService"/>
+        
+    <reference name="domainConfigService" interface="org.onosproject.icona.domainmgr.api.DomainConfigService" cardinality="1..1" policy="static" bind="bindDomainConfigService" unbind="unbindDomainConfigService"/>
+        
+    <reference name="mastershipAdminService" interface="org.onosproject.mastership.MastershipAdminService" cardinality="1..1" policy="static" bind="bindMastershipAdminService" unbind="unbindMastershipAdminService"/>
+        
+    <reference name="clusterService" interface="org.onosproject.cluster.ClusterService" cardinality="1..1" policy="static" bind="bindClusterService" unbind="unbindClusterService"/>
+        
+    <implementation class="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteDeviceProvider"/>
+    
+</scr:component>

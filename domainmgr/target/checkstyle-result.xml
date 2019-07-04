@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.10">
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/DomainManager.java">
+<error line="74" column="27" severity="warning" message="Variable &apos;domainStore&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="77" column="29" severity="warning" message="Variable &apos;deviceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="80" column="27" severity="warning" message="Variable &apos;hostService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="83" column="27" severity="warning" message="Variable &apos;linkService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="85" column="35" severity="warning" message="Variable &apos;delegate&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="190" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="212" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="234" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/DistributedDomainStore.java">
+<error line="72" column="30" severity="warning" message="Variable &apos;storageService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="286" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/DomainConfigManager.java">
+<error line="66" column="37" severity="warning" message="Variable &apos;configRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="69" column="36" severity="warning" message="Variable &apos;configService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="72" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="75" column="29" severity="warning" message="Variable &apos;domainService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="135" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/config/DomainConfig.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/config/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/impl/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainEvent.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainStore.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainConfigService.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainService.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainStoreDelegate.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/LinkId.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/DomainId.java">
+</file>
+<file name="/home/sdnlab/icona/domainmgr/src/main/java/org/onosproject/icona/domainmgr/api/package-info.java">
+</file>
+</checkstyle>

@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1562137820340
+Build-Jdk: 11.0.3
+Built-By: sdnlab
+Bundle-Description: Inter Cluster Onos Network App
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: onos-app-icona-domain-manager
+Bundle-SymbolicName: org.onosproject.onos-app-icona-domain-manager
+Bundle-Version: 1.9.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onosproject.icona.domainmgr.api;uses:="org.apache.co
+ mmons.lang3.tuple,org.onlab.util,org.onosproject.event,org.onosproject.
+ net,org.onosproject.store";version="1.9.0"
+Import-Package: 
+ com.fasterxml.jackson.databind;version="[2.9,3)",
+ com.fasterxml.jackson.databind.node;version="[2.9,3)",
+ com.google.common.base;version="[22.0,23)",
+ com.google.common.collect;version="[22.0,23)",
+ org.apache.commons.lang3.tuple;version="[3.7,4)",
+ org.onlab.util;version="[2.1,3)",
+ org.onosproject.core;version="[2.1,3)",
+ org.onosproject.event;version="[2.1,3)",
+ org.onosproject.icona.domainmgr.api,
+ org.onosproject.net;version="[2.1,3)",
+ org.onosproject.net.config;version="[2.1,3)",
+ org.onosproject.net.config.basics;version="[2.1,3)",
+ org.onosproject.net.device;version="[2.1,3)",
+ org.onosproject.net.host;version="[2.1,3)",
+ org.onosproject.net.link;version="[2.1,3)",
+ org.onosproject.store;version="[2.1,3)",
+ org.onosproject.store.primitives;version="[2.1,3)",
+ org.onosproject.store.serializers;version="[2.1,3)",
+ org.onosproject.store.service;version="[2.1,3)",
+ org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.onosproject.icona.domainmgr.impl.DomainC
+ onfigManager.xml,OSGI-INF/org.onosproject.icona.domainmgr.impl.Distribu
+ tedDomainStore.xml,OSGI-INF/org.onosproject.icona.domainmgr.impl.Domain
+ Manager.xml
+Tool: Bnd-3.5.0.201709291849

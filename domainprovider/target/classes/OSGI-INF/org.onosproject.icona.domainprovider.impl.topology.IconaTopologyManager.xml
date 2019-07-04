@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.icona.domainprovider.impl.topology.IconaTopologyManager" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="org.onosproject.icona.domainprovider.api.IconaSBListenerService"/>
+            
+    </service>
+        
+    <reference name="configRegistry" interface="org.onosproject.net.config.NetworkConfigRegistry" cardinality="1..1" policy="static" bind="bindConfigRegistry" unbind="unbindConfigRegistry"/>
+        
+    <reference name="configService" interface="org.onosproject.net.config.NetworkConfigService" cardinality="1..1" policy="static" bind="bindConfigService" unbind="unbindConfigService"/>
+        
+    <reference name="coreService" interface="org.onosproject.core.CoreService" cardinality="1..1" policy="static" bind="bindCoreService" unbind="unbindCoreService"/>
+        
+    <reference name="deviceService" interface="org.onosproject.net.device.DeviceService" cardinality="1..1" policy="static" bind="bindDeviceService" unbind="unbindDeviceService"/>
+        
+    <reference name="hostService" interface="org.onosproject.net.host.HostService" cardinality="1..1" policy="static" bind="bindHostService" unbind="unbindHostService"/>
+        
+    <reference name="linkService" interface="org.onosproject.net.link.LinkService" cardinality="1..1" policy="static" bind="bindLinkService" unbind="unbindLinkService"/>
+        
+    <reference name="domainService" interface="org.onosproject.icona.domainmgr.api.DomainService" cardinality="1..1" policy="static" bind="bindDomainService" unbind="unbindDomainService"/>
+        
+    <reference name="domainConfigService" interface="org.onosproject.icona.domainmgr.api.DomainConfigService" cardinality="1..1" policy="static" bind="bindDomainConfigService" unbind="unbindDomainConfigService"/>
+        
+    <implementation class="org.onosproject.icona.domainprovider.impl.topology.IconaTopologyManager"/>
+    
+</scr:component>

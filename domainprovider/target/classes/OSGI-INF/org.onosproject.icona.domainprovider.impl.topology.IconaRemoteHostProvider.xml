@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteHostProvider" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="org.onosproject.icona.domainprovider.api.host.IconaSBHostService"/>
+            
+    </service>
+        
+    <reference name="coreService" interface="org.onosproject.core.CoreService" cardinality="1..1" policy="static" bind="bindCoreService" unbind="unbindCoreService"/>
+        
+    <reference name="hostProviderRegistry" interface="org.onosproject.net.host.HostProviderRegistry" cardinality="1..1" policy="static" bind="bindHostProviderRegistry" unbind="unbindHostProviderRegistry"/>
+        
+    <implementation class="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteHostProvider"/>
+    
+</scr:component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteLinkProvider" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="org.onosproject.icona.domainprovider.api.link.IconaSBLinkService"/>
+            
+    </service>
+        
+    <reference name="coreService" interface="org.onosproject.core.CoreService" cardinality="1..1" policy="static" bind="bindCoreService" unbind="unbindCoreService"/>
+        
+    <reference name="linkProviderRegistry" interface="org.onosproject.net.link.LinkProviderRegistry" cardinality="1..1" policy="static" bind="bindLinkProviderRegistry" unbind="unbindLinkProviderRegistry"/>
+        
+    <implementation class="org.onosproject.icona.domainprovider.impl.topology.IconaRemoteLinkProvider"/>
+    
+</scr:component>

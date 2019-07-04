@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.10">
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/flow/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/topology/IconaRemoteHostProvider.java">
+<error line="56" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="59" column="36" severity="warning" message="Variable &apos;hostProviderRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="61" column="35" severity="warning" message="Variable &apos;hostProviderService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/topology/IconaRemoteDeviceProvider.java">
+<error line="82" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="83" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="90" column="37" severity="warning" message="Variable &apos;configRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="93" column="36" severity="warning" message="Variable &apos;configService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="96" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="99" column="38" severity="warning" message="Variable &apos;deviceProviderRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="102" column="34" severity="warning" message="Variable &apos;iconaSBLinkService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="105" column="35" severity="warning" message="Variable &apos;domainConfigService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="108" column="38" severity="warning" message="Variable &apos;mastershipAdminService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="111" column="30" severity="warning" message="Variable &apos;clusterService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="113" column="37" severity="warning" message="Variable &apos;deviceProviderService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="288" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/topology/IconaRemoteLinkProvider.java">
+<error line="60" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="63" column="36" severity="warning" message="Variable &apos;linkProviderRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="65" column="35" severity="warning" message="Variable &apos;linkProviderService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/topology/IconaTopologyManager.java">
+<error line="105" column="37" severity="warning" message="Variable &apos;configRegistry&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="108" column="36" severity="warning" message="Variable &apos;configService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="111" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="114" column="29" severity="warning" message="Variable &apos;deviceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="117" column="27" severity="warning" message="Variable &apos;hostService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="120" column="27" severity="warning" message="Variable &apos;linkService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="123" column="29" severity="warning" message="Variable &apos;domainService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="126" column="35" severity="warning" message="Variable &apos;domainConfigService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="266" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="291" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="308" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="337" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/topology/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/config/IconaConfig.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/config/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/config/TopologyConfig.java">
+<error line="35" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/impl/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/host/IconaSBHostListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/host/DomainHostDescription.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/host/DefaultDomainHostDescription.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/host/IconaSBHostService.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/host/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/DomainTopology.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/IconaSBListenerService.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/flow/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/DefaultDomainTopology.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/DomainElement.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/IconaSBListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/device/DefaultDomainDevice.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/device/DomainDevice.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/device/IconaSBDeviceService.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/device/IconaSBDeviceListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/device/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/IconaSBTopologyListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/IconaSBLinkService.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/DefaultInterLinkDescription.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/InterLinkDescription.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/IconaSBLinkListener.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/IntraLinkDescription.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/package-info.java">
+</file>
+<file name="/home/sdnlab/icona/domainprovider/src/main/java/org/onosproject/icona/domainprovider/api/link/DefaultIntraLinkDescription.java">
+</file>
+</checkstyle>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.icona.domainmgr.impl.DomainManager" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="org.onosproject.icona.domainmgr.api.DomainService"/>
+                
+        <provide interface="org.onosproject.event.ListenerService"/>
+            
+    </service>
+        
+    <reference name="domainStore" interface="org.onosproject.icona.domainmgr.api.DomainStore" cardinality="1..1" policy="static" bind="bindDomainStore" unbind="unbindDomainStore"/>
+        
+    <reference name="deviceService" interface="org.onosproject.net.device.DeviceService" cardinality="1..1" policy="static" bind="bindDeviceService" unbind="unbindDeviceService"/>
+        
+    <reference name="hostService" interface="org.onosproject.net.host.HostService" cardinality="1..1" policy="static" bind="bindHostService" unbind="unbindHostService"/>
+        
+    <reference name="linkService" interface="org.onosproject.net.link.LinkService" cardinality="1..1" policy="static" bind="bindLinkService" unbind="unbindLinkService"/>
+        
+    <implementation class="org.onosproject.icona.domainmgr.impl.DomainManager"/>
+    
+</scr:component>
